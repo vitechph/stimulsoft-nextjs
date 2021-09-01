@@ -1,0 +1,2385 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <MySQL Ref="2" type="Stimulsoft.Report.Dictionary.StiMySqlDatabase" isKey="true">
+        <Alias>MySQL</Alias>
+        <ConnectionStringEncrypted>42T1a81ZWmBFWt2E53T2Y4tU9aFDFfrN4hOh+GF04HuN8tkJT10B9WpFocx5QGUv1Gppy1tLo4VgSe19Zxh3e9Vg+w==</ConnectionStringEncrypted>
+        <Key>ba5078fb90604524b4d437fa58841bc4</Key>
+        <Name>MySQL</Name>
+      </MySQL>
+    </Databases>
+    <DataSources isList="true" count="5">
+      <paydata_details Ref="3" type="Stimulsoft.Report.Dictionary.StiMySqlSource" isKey="true">
+        <Alias>paydata_details</Alias>
+        <Columns isList="true" count="97">
+          <value>ORIGINAL,id,id,id,System.Int64,_x0034_d3750f5f8fd438f8d00e4848191a42e</value>
+          <value>ORIGINAL,paydata_header_id,paydata_header_id,paydata_header_id,System.Int64,_x0034_58bcfe2b855493db303b64eccc73fcf</value>
+          <value>ORIGINAL,employee_id,employee_id,employee_id,System.Int64,_x0039_48f91ba7f344c4fba350ebc568cb755</value>
+          <value>ORIGINAL,reg_hours,reg_hours,reg_hours,System.Int32,_x0033_19c15021c18478eba6e207edd64f611</value>
+          <value>ORIGINAL,ot_hours,ot_hours,ot_hours,System.Int32,_x0035_b590c99fc34413b82fc327939022548</value>
+          <value>ORIGINAL,ndot_hours,ndot_hours,ndot_hours,System.Int32,_x0032_55d9b52d9d74a05b9db0fc00a74f1df</value>
+          <value>ORIGINAL,rd_hours,rd_hours,rd_hours,System.Int32,_x0038_3ffc5093be14eac8b47d6367b55ed34</value>
+          <value>ORIGINAL,rdot_hours,rdot_hours,rdot_hours,System.Int32,_x0033_a9f965452a94741868bafd54deccbca</value>
+          <value>ORIGINAL,rdnd_hours,rdnd_hours,rdnd_hours,System.Int32,d45f601cb93d45a49976a9a16b1a1500</value>
+          <value>ORIGINAL,rdndot_hours,rdndot_hours,rdndot_hours,System.Int32,_x0033_f70999246a34e549c5aa73e9d46b496</value>
+          <value>ORIGINAL,lh_hours,lh_hours,lh_hours,System.Int32,_x0030_f454425661f43379befe98bb93236f0</value>
+          <value>ORIGINAL,lhot_hours,lhot_hours,lhot_hours,System.Int32,_x0033_224e047d1e04ff1aedf5198a23a0b39</value>
+          <value>ORIGINAL,lhnd_hours,lhnd_hours,lhnd_hours,System.Int32,d934ff01175e4929948d17d966ad72cb</value>
+          <value>ORIGINAL,lhndot_hours,lhndot_hours,lhndot_hours,System.Int32,c0f21c23e41348118f80e058c2598f29</value>
+          <value>ORIGINAL,lhrd_hours,lhrd_hours,lhrd_hours,System.Int32,_x0035_e4d25e16b3e4afa8e2c10f5112dd268</value>
+          <value>ORIGINAL,lhrdot_hours,lhrdot_hours,lhrdot_hours,System.Int32,_x0033_19c6b8d19704e70958c0b686bd1e68a</value>
+          <value>ORIGINAL,lhrdnd_hours,lhrdnd_hours,lhrdnd_hours,System.Int32,ce17cdd10f4f41ef82a97b1773295594</value>
+          <value>ORIGINAL,lhrdndot_hours,lhrdndot_hours,lhrdndot_hours,System.Int32,_x0038_c63bf5e8bf145a084b7d53c88792846</value>
+          <value>ORIGINAL,sh_hours,sh_hours,sh_hours,System.Int32,_x0039_d4f4d7cb39b4c5f89256c8068876f60</value>
+          <value>ORIGINAL,shot_hours,shot_hours,shot_hours,System.Int32,_x0039_35cda11139243b1b5d5c3783a715e8d</value>
+          <value>ORIGINAL,shnd_hours,shnd_hours,shnd_hours,System.Int32,ad52ed9db9394b409031261eee5dd29f</value>
+          <value>ORIGINAL,shndot_hours,shndot_hours,shndot_hours,System.Int32,_x0031_b8f6f3d08f349258d9edf5112adc760</value>
+          <value>ORIGINAL,shrd_hours,shrd_hours,shrd_hours,System.Int32,_x0033_1de6c7444d54de68d9940ceaf56c811</value>
+          <value>ORIGINAL,shrdot_hours,shrdot_hours,shrdot_hours,System.Int32,_x0033_c5a9c1585be4e16b004c9db0c062d5f</value>
+          <value>ORIGINAL,shrdnd_hours,shrdnd_hours,shrdnd_hours,System.Int32,e27977b91d774c67a3fcabe24cb36055</value>
+          <value>ORIGINAL,shrdndot_hours,shrdndot_hours,shrdndot_hours,System.Int32,_x0039_994ada1868845529a03d6cef529c5a2</value>
+          <value>ORIGINAL,reg_amount,reg_amount,reg_amount,System.Decimal,_x0032_3a4f07f87d44a64b5b4c7238d87763c</value>
+          <value>ORIGINAL,ot_amount,ot_amount,ot_amount,System.Decimal,_x0031_72b73314dd94a2196748d1155a4bbc7</value>
+          <value>ORIGINAL,nd_amount,nd_amount,nd_amount,System.Decimal,_x0034_3019a2b7d9249b2857e7976d663e4e6</value>
+          <value>ORIGINAL,ndot_amount,ndot_amount,ndot_amount,System.Decimal,_x0031_35e620cf9994936882712c6423a19e7</value>
+          <value>ORIGINAL,rd_amount,rd_amount,rd_amount,System.Decimal,_x0030_cfc193747ee4c998613dfc5861476d3</value>
+          <value>ORIGINAL,rdot_amount,rdot_amount,rdot_amount,System.Decimal,f7c00112be9a4f849470199b0345e2eb</value>
+          <value>ORIGINAL,rdnd_amount,rdnd_amount,rdnd_amount,System.Decimal,_x0037_05536ec73ac4f10a96541eeb8a93fd0</value>
+          <value>ORIGINAL,rdndot_amount,rdndot_amount,rdndot_amount,System.Decimal,_x0036_e4573f2f74b44a89faefe5097f7afad</value>
+          <value>ORIGINAL,lh_amount,lh_amount,lh_amount,System.Decimal,_x0036_682f35b8fc34f5da14450c9409b267e</value>
+          <value>ORIGINAL,lhot_amount,lhot_amount,lhot_amount,System.Decimal,_x0031_d046eaa50f646cf85039b0fc66aa689</value>
+          <value>ORIGINAL,lhnd_amount,lhnd_amount,lhnd_amount,System.Decimal,ba2e2e8eb4264b7da1ad9e0bdf6ef198</value>
+          <value>ORIGINAL,lhndot_amount,lhndot_amount,lhndot_amount,System.Decimal,c367dae04c694570b7ba396fbce13c9e</value>
+          <value>ORIGINAL,lhrd_amount,lhrd_amount,lhrd_amount,System.Decimal,_x0039_38c26b7572b44958e469e82f6539611</value>
+          <value>ORIGINAL,lhrdot_amount,lhrdot_amount,lhrdot_amount,System.Decimal,_x0038_3d3873924bf4da98e7422b464e8b66d</value>
+          <value>ORIGINAL,lhrdnd_amount,lhrdnd_amount,lhrdnd_amount,System.Decimal,_x0038_c10c34df56e4eed9ee9ab8629340e8d</value>
+          <value>ORIGINAL,lhrdndot_amount,lhrdndot_amount,lhrdndot_amount,System.Decimal,_x0039_3878fdf797c412fbf0c0d0d2ab2e173</value>
+          <value>ORIGINAL,sh_amount,sh_amount,sh_amount,System.Decimal,_x0031_a4f5cf0794b4866bf0ab6042936be86</value>
+          <value>ORIGINAL,shot_amount,shot_amount,shot_amount,System.Decimal,_x0037_220cd56320042a496ec0bc6314fea2e</value>
+          <value>ORIGINAL,shndot_amount,shndot_amount,shndot_amount,System.Decimal,f55528bf0c764b9fb88beb87a2c06058</value>
+          <value>ORIGINAL,shrd_amount,shrd_amount,shrd_amount,System.Decimal,_x0031_913c369ffa1442a81f06a27f350a8c8</value>
+          <value>ORIGINAL,shrdot_amount,shrdot_amount,shrdot_amount,System.Decimal,_x0030_ec3b01f9e6944c88b12bc84d1efa4fa</value>
+          <value>ORIGINAL,shrdnd_amount,shrdnd_amount,shrdnd_amount,System.Decimal,da86042a0ed64b95ae861b098740a096</value>
+          <value>ORIGINAL,shrdndot_amount,shrdndot_amount,shrdndot_amount,System.Decimal,f775fc11c3424d3cb089914b3a54deee</value>
+          <value>ORIGINAL,basic_amount,basic_amount,basic_amount,System.Decimal,d48d19ecf86945f3983e6b2109fa017f</value>
+          <value>ORIGINAL,gross_amount,gross_amount,gross_amount,System.Decimal,_x0033_c595f3f864f4565bc1fe879e2360050</value>
+          <value>ORIGINAL,fivedays_amount,fivedays_amount,fivedays_amount,System.Decimal,d137addd5af1444388b70cdfc146bf3e</value>
+          <value>ORIGINAL,cola_amount,cola_amount,cola_amount,System.Decimal,ea99c16d3ab3437584f014e88f0b961a</value>
+          <value>ORIGINAL,tm_amount,tm_amount,tm_amount,System.Decimal,_x0032_9c1cf6211b34378b58b225672ca52cc</value>
+          <value>ORIGINAL,unif_amount,unif_amount,unif_amount,System.Decimal,_x0039_05f6fd568784190a80ea6f09c2b95f3</value>
+          <value>ORIGINAL,long_amount,long_amount,long_amount,System.Decimal,c3cd9af26f26498c81b3a8e6c095b54e</value>
+          <value>ORIGINAL,retire_amount,retire_amount,retire_amount,System.Decimal,aee26febccac494a9736204e710a9b44</value>
+          <value>ORIGINAL,allow_amount,allow_amount,allow_amount,System.Decimal,_x0038_ed9600a6c3545199c8a194e0c1f820e</value>
+          <value>ORIGINAL,ctpa_amount,ctpa_amount,ctpa_amount,System.Decimal,a482f46d22974d0f8130e19f2d86779f</value>
+          <value>ORIGINAL,sea_amount,sea_amount,sea_amount,System.Decimal,_x0032_9eba6b4ed4b4994be0e1a3831f2e7df</value>
+          <value>ORIGINAL,sss_employee,sss_employee,sss_employee,System.Decimal,_x0035_e00c59affc64276beb4520e1b20055c</value>
+          <value>ORIGINAL,sss_employer,sss_employer,sss_employer,System.Decimal,ee3d860abed646af91525f6ec952514a</value>
+          <value>ORIGINAL,sss_ecc,sss_ecc,sss_ecc,System.Decimal,_x0034_e17f58341fa48c1affd5544184edff8</value>
+          <value>ORIGINAL,ph_employee,ph_employee,ph_employee,System.Decimal,_x0038_6d587f86f4a4bfc9f0bf01767b378c9</value>
+          <value>ORIGINAL,ph_employer,ph_employer,ph_employer,System.Decimal,fb03bb31c1fa403bb3d2a8eacf27c0ff</value>
+          <value>ORIGINAL,hdmf_employee,hdmf_employee,hdmf_employee,System.Decimal,_x0037_4597304c7124d2eabe412506f441255</value>
+          <value>ORIGINAL,hdmf_employer,hdmf_employer,hdmf_employer,System.Decimal,c33d70324b814deb97e41ba9041a7e0d</value>
+          <value>ORIGINAL,tax_wheld,tax_wheld,tax_wheld,System.Decimal,_x0034_27ec1357cc34f09bf1acf64ef9c3acc</value>
+          <value>ORIGINAL,cashbond,cashbond,cashbond,System.Decimal,bc43fd75757c4562bbda1741ed3ce181</value>
+          <value>ORIGINAL,death_assist,death_assist,death_assist,System.Decimal,cdb5464d76f6476086faa133d806f762</value>
+          <value>ORIGINAL,dedn01,dedn01,dedn01,System.Decimal,e0203650c072440081ef9c9824fa3864</value>
+          <value>ORIGINAL,dedn02,dedn02,dedn02,System.Decimal,_x0038_817153e78624d51a719f1f890d1e686</value>
+          <value>ORIGINAL,dedn03,dedn03,dedn03,System.Decimal,_x0034_ed50747ca684fc69bcd2aeb07767228</value>
+          <value>ORIGINAL,dedn04,dedn04,dedn04,System.Decimal,_x0036_82b2979bfdf4935aa4630092176fddd</value>
+          <value>ORIGINAL,dedn05,dedn05,dedn05,System.Decimal,_x0038_bcea22f06044949962dfabb8b179964</value>
+          <value>ORIGINAL,dedn06,dedn06,dedn06,System.Decimal,d2061cfc1b484955b66bba47ef8c1e50</value>
+          <value>ORIGINAL,dedn07,dedn07,dedn07,System.Decimal,_x0031_33aab787f8e45a8a72d053064430ab0</value>
+          <value>ORIGINAL,dedn08,dedn08,dedn08,System.Decimal,_x0034_45fe2ac6b1a4b8a8018f8567b824f13</value>
+          <value>ORIGINAL,dedn09,dedn09,dedn09,System.Decimal,_x0039_77a723b6cb14af2b0ecf6955e78a6b0</value>
+          <value>ORIGINAL,dedn10,dedn10,dedn10,System.Decimal,dc678f9ca9174a4f854d3de4089f8603</value>
+          <value>ORIGINAL,dedn11,dedn11,dedn11,System.Decimal,f3b0c7c7206b4b379dce5c0a917bb438</value>
+          <value>ORIGINAL,dedn12,dedn12,dedn12,System.Decimal,_x0039_3ebc706ae6e430a85b5fcc8bb33fd60</value>
+          <value>ORIGINAL,dedn13,dedn13,dedn13,System.Decimal,_x0031_68a39abdaa844c28c4a55d9b85eeb52</value>
+          <value>ORIGINAL,dedn14,dedn14,dedn14,System.Decimal,_x0036_9b3e69415a24ec99e7e09f2862fd9de</value>
+          <value>ORIGINAL,dedn15,dedn15,dedn15,System.Decimal,_x0039_503bf75523a4dc4b790371e52b03f88</value>
+          <value>ORIGINAL,dedn16,dedn16,dedn16,System.Decimal,_x0031_9a9548433654b928d5e01ab5e0cc506</value>
+          <value>ORIGINAL,dedn17,dedn17,dedn17,System.Decimal,_x0037_16dc2d5ecc84c56b45dbb791c152f4f</value>
+          <value>ORIGINAL,dedn18,dedn18,dedn18,System.Decimal,c3d29fa536354422885622751b5d117f</value>
+          <value>ORIGINAL,dedn19,dedn19,dedn19,System.Decimal,_x0030_8ebac50195e477fb5c589af45edd1f5</value>
+          <value>ORIGINAL,dedn20,dedn20,dedn20,System.Decimal,_x0036_21c43b488ca4d0b9645d9c5690b0722</value>
+          <value>ORIGINAL,deduction_amount,deduction_amount,deduction_amount,System.Decimal,cd52260487e54e57850db3d816e39e33</value>
+          <value>ORIGINAL,netpay_amount,netpay_amount,netpay_amount,System.Decimal,_x0034_e5017d81dc14f2ebb1cf6d6aba9d402</value>
+          <value>ORIGINAL,status,status,status,System.String,_x0030_64a5926c9e343348d82cf4cd9c6ecf9</value>
+          <value>ORIGINAL,created_at,created_at,created_at,System.DateTime,_x0035_880414696ba4aa59bcded7bffba83cc</value>
+          <value>ORIGINAL,updated_at,updated_at,updated_at,System.DateTime,adff6c77034d4251948d1275b73e87e4</value>
+          <value>ORIGINAL,nd_hours,nd_hours,nd_hours,System.Int32,_x0035_5fb02bd460d4f1f854585a04f7f30d8</value>
+          <value>ORIGINAL,shnd_amount,shnd_amount,shnd_amount,System.Decimal,_x0031_d5baf34d4e94d6f8d865dc437d3d0dd</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>675682c9663644cf95bc3e73844ee60e</Key>
+        <Name>paydata_details</Name>
+        <NameInSource>MySQL</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from paydata_details</SqlCommand>
+      </paydata_details>
+      <paydata_headers Ref="4" type="Stimulsoft.Report.Dictionary.StiMySqlSource" isKey="true">
+        <Alias>paydata_headers</Alias>
+        <Columns isList="true" count="12">
+          <value>id,System.Int64</value>
+          <value>company_id,System.Int64</value>
+          <value>client_id,System.Int64</value>
+          <value>pay_year,System.String</value>
+          <value>pay_period,System.String</value>
+          <value>pay_batch,System.String</value>
+          <value>payroll_period,System.String</value>
+          <value>pay_start_date,System.DateTime</value>
+          <value>pay_end_date,System.DateTime</value>
+          <value>posted_date,System.DateTime</value>
+          <value>created_at,System.DateTime</value>
+          <value>updated_at,System.DateTime</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>0de68baa13b74955b3bcc420afdbc888</Key>
+        <Name>paydata_headers</Name>
+        <NameInSource>MySQL</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from paydata_headers</SqlCommand>
+      </paydata_headers>
+      <clients Ref="5" type="Stimulsoft.Report.Dictionary.StiMySqlSource" isKey="true">
+        <Alias>clients</Alias>
+        <Columns isList="true" count="44">
+          <value>ORIGINAL,id,id,id,System.Int64,e1fc84936e1b4dfeb2cea6d222b3cd0e</value>
+          <value>ORIGINAL,uuid,uuid,uuid,System.String,de2a38d292584321860b135772e996bb</value>
+          <value>ORIGINAL,name,name,name,System.String,_x0031_216d91192934b16ac0742f08fe5d79f</value>
+          <value>ORIGINAL,client_no,client_no,client_no,System.String,_x0032_7810b8c8b454698bd401519f06ae524</value>
+          <value>ORIGINAL,email,email,email,System.String,df804c5e27e64a118be6214bb33b482c</value>
+          <value>ORIGINAL,phone_no,phone_no,phone_no,System.String,_x0039_85e1ad98a6d4f1bbb73394032795224</value>
+          <value>ORIGINAL,website,website,website,System.String,_x0033_51dfba749de4075a43ee295aebee3ae</value>
+          <value>ORIGINAL,status,status,status,System.String,b1e1a7ff930f4dcf8b68ea171435f300</value>
+          <value>ORIGINAL,contact_name,contact_name,contact_name,System.String,eeb44394e7b049e0bcdb716cf9dfd575</value>
+          <value>ORIGINAL,contact_position,contact_position,contact_position,System.String,be64da04229b40f694877c5bac6878d3</value>
+          <value>ORIGINAL,contact_phone,contact_phone,contact_phone,System.String,_x0032_55fdec0e8294b42a05cc84832a77ab5</value>
+          <value>ORIGINAL,contact_email,contact_email,contact_email,System.String,d6360051df89412c9d972b0f48165b3c</value>
+          <value>ORIGINAL,attn,attn,attn,System.String,f026ea6d28854a5c9c1023dc979f3f5d</value>
+          <value>ORIGINAL,tin,tin,tin,System.String,_x0039_e837f084e8b4d51a1e6702ccb2e47d2</value>
+          <value>ORIGINAL,abbr,abbr,abbr,System.String,_x0035_953ac300d384a82a6ed46895628ea56</value>
+          <value>ORIGINAL,address,address,address,System.String,_x0037_4305b0c04604f1ab732996917980d08</value>
+          <value>ORIGINAL,barangay,barangay,barangay,System.String,_x0038_9a00b9b35334befa36d52bc22473e8c</value>
+          <value>ORIGINAL,city,city,city,System.String,b217d7e1602044fd9d9dc5967b15392a</value>
+          <value>ORIGINAL,province,province,province,System.String,_x0035_561e3381653408faf7f0e1c7f8d2819</value>
+          <value>ORIGINAL,country,country,country,System.String,c311717a9cc34fea83f1ee55c06399db</value>
+          <value>ORIGINAL,postal_code,postal_code,postal_code,System.String,_x0030_5712292505f428fb7f7aad873b921d0</value>
+          <value>ORIGINAL,regular_rate,regular_rate,regular_rate,System.Decimal,_x0036_1c3a215c98f478e9e1a81d8499ed1d3</value>
+          <value>ORIGINAL,overtime_rate,overtime_rate,overtime_rate,System.Decimal,_x0032_e56f45202a9474891454271d7bc0929</value>
+          <value>ORIGINAL,night_diff_rate,night_diff_rate,night_diff_rate,System.Decimal,_x0038_e4a2a93a5534865b8a04559c600e31e</value>
+          <value>ORIGINAL,ecola_rate,ecola_rate,ecola_rate,System.Decimal,_x0033_76c3cd3d36c4f67ae52a71664f181ef</value>
+          <value>ORIGINAL,thirteen_month_rate,thirteen_month_rate,thirteen_month_rate,System.Decimal,_x0036_6c7059d489b4b688cc80ba3e4ef72af</value>
+          <value>ORIGINAL,uniform_rate,uniform_rate,uniform_rate,System.Decimal,ffefb3c04b0b4208bf8af5075ed24e45</value>
+          <value>ORIGINAL,retirement_rate,retirement_rate,retirement_rate,System.Decimal,b7d236aa1e1c4b0f85e037d2534663b8</value>
+          <value>ORIGINAL,five_days_inc_rate,five_days_inc_rate,five_days_inc_rate,System.Decimal,_x0037_0157eece81141ef9782fac46e51319f</value>
+          <value>ORIGINAL,shipping_address,shipping_address,shipping_address,System.String,c017f51dd9424c55a4f019c32de55648</value>
+          <value>ORIGINAL,shipping_barangay,shipping_barangay,shipping_barangay,System.String,_x0033_0ed90a10fb1456b9dba9f6f76c9c9a4</value>
+          <value>ORIGINAL,shipping_city,shipping_city,shipping_city,System.String,_x0030_078b8e801044d52bf1eddb43e5361e7</value>
+          <value>ORIGINAL,shipping_province,shipping_province,shipping_province,System.String,_x0035_0c0406d12f74be3886409d58189703b</value>
+          <value>ORIGINAL,shipping_country,shipping_country,shipping_country,System.String,_x0030_edf8e54738643beb7c1e5643de0ec75</value>
+          <value>ORIGINAL,shipping_postal_code,shipping_postal_code,shipping_postal_code,System.String,_x0038_c3fa5109ff94bd09a92cc9a60e7e707</value>
+          <value>ORIGINAL,avatar_path,avatar_path,avatar_path,System.String,_x0036_65d543deb4b432a95fc641131adab09</value>
+          <value>ORIGINAL,avatar_public_path,avatar_public_path,avatar_public_path,System.String,d8649f2a1bb844448d9883cf603622f0</value>
+          <value>ORIGINAL,avatar_size,avatar_size,avatar_size,System.Int64,_x0033_837f3ff06e241c0b91a95fb6057057a</value>
+          <value>ORIGINAL,company_id,company_id,company_id,System.Int64,_x0035_1f33a9126f142fe9d1292c612b2d59f</value>
+          <value>ORIGINAL,created_by,created_by,created_by,System.Int64,d688cfccdea84f7fae08a4abd7a465d0</value>
+          <value>ORIGINAL,updated_by,updated_by,updated_by,System.Int64,_x0037_efa876e52f5498b9109a22202adcc54</value>
+          <value>ORIGINAL,created_at,created_at,created_at,System.DateTime,_x0036_9c25bbf246a40fe8c39263d4c1721fb</value>
+          <value>ORIGINAL,updated_at,updated_at,updated_at,System.DateTime,_x0031_52f2b4e631747ad98e983efe4f663b2</value>
+          <value>ORIGINAL,region,region,region,System.String,_x0033_9d7567e76de4ead9dbc9e2f1998bd21</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>2640ad6b51b04483b09dfa230458e068</Key>
+        <Name>clients</Name>
+        <NameInSource>MySQL</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from clients</SqlCommand>
+      </clients>
+      <companies Ref="6" type="Stimulsoft.Report.Dictionary.StiMySqlSource" isKey="true">
+        <Alias>companies</Alias>
+        <Columns isList="true" count="21">
+          <value>id,System.Int64</value>
+          <value>uuid,System.String</value>
+          <value>user_id,System.Int64</value>
+          <value>name,System.String</value>
+          <value>personal_company,System.SByte</value>
+          <value>address,System.String</value>
+          <value>city,System.String</value>
+          <value>post_code,System.String</value>
+          <value>email,System.String</value>
+          <value>company_status,System.String</value>
+          <value>contact_name,System.String</value>
+          <value>contact_position,System.String</value>
+          <value>contact_phone,System.String</value>
+          <value>contact_email,System.String</value>
+          <value>created_at,System.DateTime</value>
+          <value>updated_at,System.DateTime</value>
+          <value>alias,System.String</value>
+          <value>payroll_period,System.String</value>
+          <value>pay_year,System.String</value>
+          <value>pay_period,System.String</value>
+          <value>pay_batch,System.String</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>7fd484a1bffa49fdbe28b55fc429484f</Key>
+        <Name>companies</Name>
+        <NameInSource>MySQL</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from companies</SqlCommand>
+      </companies>
+      <employees Ref="7" type="Stimulsoft.Report.Dictionary.StiMySqlSource" isKey="true">
+        <Alias>employees</Alias>
+        <Columns isList="true" count="115">
+          <value>ORIGINAL,id,id,id,System.Int64,_x0033_7f3b521069c41c2b696bc53b67bd77f</value>
+          <value>ORIGINAL,uuid,uuid,uuid,System.String,_x0033_954bfe2e09348de853d1c9ee2a8a2d7</value>
+          <value>ORIGINAL,employee_no,employee_no,employee_no,System.String,_x0038_822c9b8f3474a8e852fd4bc7d548183</value>
+          <value>ORIGINAL,last_name,last_name,last_name,System.String,c06e9193da64473aaeb025a8b24fd302</value>
+          <value>ORIGINAL,first_name,first_name,first_name,System.String,db2e784b2c6a4415accb09cb6e08f727</value>
+          <value>ORIGINAL,middle_name,middle_name,middle_name,System.String,c89a6dab36ed4a588177d71e6c87e7fa</value>
+          <value>ORIGINAL,alias_name,alias_name,alias_name,System.String,_x0039_6a4a8972b2e404895963dbfce8885ab</value>
+          <value>ORIGINAL,phone_no,phone_no,phone_no,System.String,_x0039_356fdcd50774478a163e4add3aff54c</value>
+          <value>ORIGINAL,email,email,email,System.String,ae0a14362e724dbdb7c3ac5044222487</value>
+          <value>ORIGINAL,viber,viber,viber,System.String,d1a0ae2aac9b4d7f866207103fec3386</value>
+          <value>ORIGINAL,messenger,messenger,messenger,System.String,_x0034_0bd7870db994d5aab99988444e33798</value>
+          <value>ORIGINAL,skype,skype,skype,System.String,afe0426874344dccb8e64147091e2b86</value>
+          <value>ORIGINAL,address,address,address,System.String,d1f1085efff64bc5b821b64994566ec6</value>
+          <value>ORIGINAL,barangay,barangay,barangay,System.String,e13cb6a6012a4a9ea3ed1212c5e6826f</value>
+          <value>ORIGINAL,city,city,city,System.String,b77da82abf8d490cbdf1a6cf6541cff3</value>
+          <value>ORIGINAL,region,region,region,System.String,_x0036_2c492ceb254418da6398b614b83f711</value>
+          <value>ORIGINAL,province,province,province,System.String,decf11afc4624664a71ab9bab373e7d8</value>
+          <value>ORIGINAL,postal_code,postal_code,postal_code,System.String,_x0036_91c4255f2d74ae5897604d6186d9726</value>
+          <value>ORIGINAL,perma_address,perma_address,perma_address,System.String,_x0031_8a1fdc190bf4768868f2eea9f37d10c</value>
+          <value>ORIGINAL,perma_barangay,perma_barangay,perma_barangay,System.String,fb5a9cef02664ed1b2ec7bd97d11842a</value>
+          <value>ORIGINAL,perma_city,perma_city,perma_city,System.String,b749e9f57c2d4c21a8e5e66a0822279b</value>
+          <value>ORIGINAL,perma_region,perma_region,perma_region,System.String,_x0032_2945e0e84b3498db87170073d1c63fd</value>
+          <value>ORIGINAL,perma_province,perma_province,perma_province,System.String,_x0038_5a5b3e71b4d47fbb825a89d624cc388</value>
+          <value>ORIGINAL,perma_postal_code,perma_postal_code,perma_postal_code,System.String,_x0033_461ba4bd48140d4af476fbf4cd2e971</value>
+          <value>ORIGINAL,birth_date,birth_date,birth_date,System.DateTime,_x0039_dada7558c1b4e8b806e35be8ef946e1</value>
+          <value>ORIGINAL,birth_place,birth_place,birth_place,System.String,b79103706c9442c7925013a839ecf681</value>
+          <value>ORIGINAL,gender,gender,gender,System.String,_x0031_c2b026c88994e84b6ed99b417359ea3</value>
+          <value>ORIGINAL,citizenship,citizenship,citizenship,System.String,_x0037_e983c57a98f4a61a6fe25f0e2744f6c</value>
+          <value>ORIGINAL,civil_status,civil_status,civil_status,System.String,_x0031_c4588190b744f0c9181d8509fd8992b</value>
+          <value>ORIGINAL,religion,religion,religion,System.String,_x0030_bcb10d6db404e71b122e78ac23ea5f2</value>
+          <value>ORIGINAL,height,height,height,System.String,_x0037_3a49651130f4773a48c5ebd0f803d8d</value>
+          <value>ORIGINAL,weight,weight,weight,System.String,_x0030_1529c3551d74306af33b7d1f75cef11</value>
+          <value>ORIGINAL,hair_color,hair_color,hair_color,System.String,_x0036_c9f77cefa8c452c943372e4366a7469</value>
+          <value>ORIGINAL,eye_color,eye_color,eye_color,System.String,a12a9e6c7f8e4859b7e90b2edd50fd2b</value>
+          <value>ORIGINAL,complexion,complexion,complexion,System.String,_x0031_3434f52d4984f23a3fd4f95a47bd55e</value>
+          <value>ORIGINAL,body_type,body_type,body_type,System.String,_x0032_fd82b3e50f84092a61d401808e57a2a</value>
+          <value>ORIGINAL,emergency_name,emergency_name,emergency_name,System.String,f98f513ef9d34e5db958442adb2cf107</value>
+          <value>ORIGINAL,emergency_phone,emergency_phone,emergency_phone,System.String,d3541d6b5bb24971a6978097d4f0aae7</value>
+          <value>ORIGINAL,emergency_email,emergency_email,emergency_email,System.String,_x0034_680bf899f6647b8847e3fe114526e5d</value>
+          <value>ORIGINAL,emergency_relationship,emergency_relationship,emergency_relationship,System.String,_x0033_199a5dcb9194a3a8e62e3e90e76c610</value>
+          <value>ORIGINAL,spouse_name,spouse_name,spouse_name,System.String,cf7e5886d77842508af0c3c2068abdb8</value>
+          <value>ORIGINAL,spouse_phone,spouse_phone,spouse_phone,System.String,_x0037_a1179f3a63b49d9b425a7953dd2e249</value>
+          <value>ORIGINAL,spouse_occupation,spouse_occupation,spouse_occupation,System.String,eb65093ea61a4e76bf5fa83abc2fe026</value>
+          <value>ORIGINAL,spouse_no_of_children,spouse_no_of_children,spouse_no_of_children,System.Int32,a61cd279cfa84102a3a28c54553ddf61</value>
+          <value>ORIGINAL,fathers_name,fathers_name,fathers_name,System.String,_x0030_5e9e35fb7a045ef9b72db1f92b4dfb5</value>
+          <value>ORIGINAL,mothers_name,mothers_name,mothers_name,System.String,e48dea90ce6c44f7ab16c3831bbb057d</value>
+          <value>ORIGINAL,family_name1,family_name1,family_name1,System.String,d1c335d7055a4e43836b363a847592ed</value>
+          <value>ORIGINAL,family_birthday1,family_birthday1,family_birthday1,System.DateTime,a0f8ba8d6b564de6bfe33b3936d83c00</value>
+          <value>ORIGINAL,family_relation1,family_relation1,family_relation1,System.String,a7e9c5688ad443949ca7c7574758f232</value>
+          <value>ORIGINAL,family_name2,family_name2,family_name2,System.String,_x0030_b9d7edf7b3847468a1d0c482a6b3a1f</value>
+          <value>ORIGINAL,family_birthday2,family_birthday2,family_birthday2,System.DateTime,_x0037_e579ab3b4e349e2849bc41f48844058</value>
+          <value>ORIGINAL,family_relation2,family_relation2,family_relation2,System.String,e50dd2750c3b4768812a4de363e59252</value>
+          <value>ORIGINAL,highest_educ_attainment,highest_educ_attainment,highest_educ_attainment,System.String,d5a603a5ca7745b8bb6aee4b768257de</value>
+          <value>ORIGINAL,college_degree,college_degree,college_degree,System.String,_x0037_4f1e984b6ae4c988c25330791f04f2d</value>
+          <value>ORIGINAL,college_name,college_name,college_name,System.String,_x0036_9f12978a93a4ee3818ba90153d63846</value>
+          <value>ORIGINAL,college_start,college_start,college_start,System.DateTime,_x0030_fdd5f994d01478a8e9f97d1227f8ed5</value>
+          <value>ORIGINAL,college_end,college_end,college_end,System.DateTime,_x0032_0868534138e462fa0079698333efa64</value>
+          <value>ORIGINAL,high_school_name,high_school_name,high_school_name,System.String,_x0037_e8c4c2f494f43379b4e3ac2e04848aa</value>
+          <value>ORIGINAL,high_school_start,high_school_start,high_school_start,System.DateTime,bb74f3f775c64115b2c997988f8571b7</value>
+          <value>ORIGINAL,high_school_end,high_school_end,high_school_end,System.DateTime,c750bed81c7746f7a58d04a0b77b8340</value>
+          <value>ORIGINAL,elementary_name,elementary_name,elementary_name,System.String,_x0032_af62cba064940ad8ad079e99fcba018</value>
+          <value>ORIGINAL,elementary_start,elementary_start,elementary_start,System.DateTime,_x0035_68282c25b134a6192682f60183a4de8</value>
+          <value>ORIGINAL,elementary_end,elementary_end,elementary_end,System.DateTime,_x0035_bf5cb2c5c57470cbf2187f115f362e3</value>
+          <value>ORIGINAL,security_license,security_license,security_license,System.String,_x0031_8f02756f0a849529b4f76fcb04864e7</value>
+          <value>ORIGINAL,security_license_expiration,security_license_expiration,security_license_expiration,System.DateTime,d4cfda11e7d5402e9c330887c591dd51</value>
+          <value>ORIGINAL,security_license_validity,security_license_validity,security_license_validity,System.DateTime,_x0033_7ab4e31a41d47109f8520b073cdb631</value>
+          <value>ORIGINAL,security_license_type,security_license_type,security_license_type,System.String,e7ad4010ad7b44ec8eac2847de2753bd</value>
+          <value>ORIGINAL,security_license_verification,security_license_verification,security_license_verification,System.String,_x0032_9701f2e9e2d47328b1c437dfb2b4e82</value>
+          <value>ORIGINAL,designation,designation,designation,System.String,_x0034_1ae311b9cbf4108b9302c4ee7a32336</value>
+          <value>ORIGINAL,employment_status,employment_status,employment_status,System.String,_x0036_54180b548cf4ecfbdf2c09f3ea93483</value>
+          <value>ORIGINAL,date_hired,date_hired,date_hired,System.DateTime,_x0036_3c3106662884e449a122d5018833520</value>
+          <value>ORIGINAL,date_separated,date_separated,date_separated,System.DateTime,_x0032_3cee383b0564ce8a124a85678432f8d</value>
+          <value>ORIGINAL,employment_status_reason,employment_status_reason,employment_status_reason,System.String,_x0038_fd34c9bf12d4ab9af9b67f48ca5d111</value>
+          <value>ORIGINAL,employment_status_remarks,employment_status_remarks,employment_status_remarks,System.String,_x0033_0190c8f11b6420a8ecdb982cf309277</value>
+          <value>ORIGINAL,sss_no,sss_no,sss_no,System.String,cd9225a33b83409da2fb50d69cc46582</value>
+          <value>ORIGINAL,philhealth_no,philhealth_no,philhealth_no,System.String,_x0039_c558a9da58d4cc3a0b0c021c45f4b74</value>
+          <value>ORIGINAL,hdmf_no,hdmf_no,hdmf_no,System.String,_x0037_68244d3e6ae4c8ea0b38de45e710b34</value>
+          <value>ORIGINAL,tax_no,tax_no,tax_no,System.String,_x0036_8aef5449ce5412ea4c051b2d51f34d5</value>
+          <value>ORIGINAL,drivers_license,drivers_license,drivers_license,System.String,_x0032_3d96506b97b4c1fbd183cae9cff4080</value>
+          <value>ORIGINAL,drivers_license_expiration,drivers_license_expiration,drivers_license_expiration,System.DateTime,_x0031_83719b3606140de8a2e2dffc4b7496c</value>
+          <value>ORIGINAL,reference_name1,reference_name1,reference_name1,System.String,dcbe10c71f364c3998b171ec5c40068e</value>
+          <value>ORIGINAL,reference_occupation1,reference_occupation1,reference_occupation1,System.String,ab2154017f574d3fa5b3f785f8c89256</value>
+          <value>ORIGINAL,reference_email1,reference_email1,reference_email1,System.String,d03a2d168efe4d5ab07dc970f29a5cdf</value>
+          <value>ORIGINAL,reference_phone1,reference_phone1,reference_phone1,System.String,_x0039_aa776773c614c4dae1fc8fb24c8b460</value>
+          <value>ORIGINAL,reference_name2,reference_name2,reference_name2,System.String,_x0032_5de95e434cf48129ad9f0f9fc4686c0</value>
+          <value>ORIGINAL,reference_occupation2,reference_occupation2,reference_occupation2,System.String,_x0034_901e4d1f3654d888adf56caeb1c54ea</value>
+          <value>ORIGINAL,reference_email2,reference_email2,reference_email2,System.String,_x0036_3f5c1e3cbf3415c9aa94adb7d943385</value>
+          <value>ORIGINAL,reference_phone2,reference_phone2,reference_phone2,System.String,_x0031_409ffd8980748e79a29458120cb6ded</value>
+          <value>ORIGINAL,employment_name1,employment_name1,employment_name1,System.String,d2e576c6d9ce41698682113ac87318f2</value>
+          <value>ORIGINAL,employment_position1,employment_position1,employment_position1,System.String,_x0033_01906a9160d4301988372b7edd5d5f4</value>
+          <value>ORIGINAL,employment_start1,employment_start1,employment_start1,System.DateTime,d3a08a239dfa4b02ba3cc5cba4867c91</value>
+          <value>ORIGINAL,employment_end1,employment_end1,employment_end1,System.DateTime,b74920279f874a93aa77787cffa71484</value>
+          <value>ORIGINAL,employment_name2,employment_name2,employment_name2,System.String,_x0030_b42cff7954842b796e2b0a2b1803506</value>
+          <value>ORIGINAL,employment_position2,employment_position2,employment_position2,System.String,_x0033_ef1bbea237841c19c6af1473bab47c8</value>
+          <value>ORIGINAL,employment_start2,employment_start2,employment_start2,System.DateTime,_x0032_feb8c7bf946437ba91a3aa4db25f2d2</value>
+          <value>ORIGINAL,employment_end2,employment_end2,employment_end2,System.DateTime,_x0039_5b6b9f8692e4e2097b8a5c29bf3143f</value>
+          <value>ORIGINAL,bank_account,bank_account,bank_account,System.String,_x0032_58b74c9598f48bba16620872a639059</value>
+          <value>ORIGINAL,bank_branch,bank_branch,bank_branch,System.String,_x0037_1a50e5f61d04316b34c457b4b082f2f</value>
+          <value>ORIGINAL,movement_no,movement_no,movement_no,System.String,_x0037_588acf1aea2419eb1fd58099510ad7d</value>
+          <value>ORIGINAL,movement_mode,movement_mode,movement_mode,System.String,_x0031_d1333b26f9946aab279267d231b7218</value>
+          <value>ORIGINAL,movement_date,movement_date,movement_date,System.DateTime,_x0035_6bae46bf66d47b1b40c9cac46c23483</value>
+          <value>ORIGINAL,avatar_path,avatar_path,avatar_path,System.String,be28c776d7cd464da7ab20ecbfae8d56</value>
+          <value>ORIGINAL,avatar_public_path,avatar_public_path,avatar_public_path,System.String,_x0030_133f85a3cb74760bb5dd1f3d6c9d364</value>
+          <value>ORIGINAL,avatar_size,avatar_size,avatar_size,System.Int64,db5539a4ddda4a059e8b959205fb91b8</value>
+          <value>ORIGINAL,company_id,company_id,company_id,System.Int64,f723cbc3f4784276ae01ea9b714d693b</value>
+          <value>ORIGINAL,created_by,created_by,created_by,System.Int64,f940e215470b405da84dc98b5136143b</value>
+          <value>ORIGINAL,updated_by,updated_by,updated_by,System.Int64,a3e6830f94a74cd28c5ecca00164c1d2</value>
+          <value>ORIGINAL,created_at,created_at,created_at,System.DateTime,_x0031_6028c8e5fdc47e49c696c5c1183bbd8</value>
+          <value>ORIGINAL,updated_at,updated_at,updated_at,System.DateTime,fb810871b88c47f4a20fd50c125910a9</value>
+          <value>ORIGINAL,client_id,client_id,client_id,System.Int64,f5cee7864a424357b787792e7d4a465e</value>
+          <value>ORIGINAL,insurance_company,insurance_company,insurance_company,System.String,bbe77b089ef14e0aa85303339434974d</value>
+          <value>ORIGINAL,insurance_policy,insurance_policy,insurance_policy,System.String,b603d028f6854d758c080c05017d045e</value>
+          <value>ORIGINAL,insurance_facevalue,insurance_facevalue,insurance_facevalue,System.Decimal,_x0035_921989ad9f94108b14cc329da7f8247</value>
+          <value>ORIGINAL,insurance_premium,insurance_premium,insurance_premium,System.Decimal,_x0033_9e8cca3c81244fa8c47878afcadb2c7</value>
+          <value>ORIGINAL,insurance_expire,insurance_expire,insurance_expire,System.DateTime,c1d4f8f1019442a2aaa3275876596853</value>
+        </Columns>
+        <CommandTimeout>30</CommandTimeout>
+        <Dictionary isRef="1" />
+        <Key>84093dc6ebe0404d9dc096fd9ba4700b</Key>
+        <Name>employees</Name>
+        <NameInSource>MySQL</NameInSource>
+        <Parameters isList="true" count="0" />
+        <SqlCommand>select * from employees</SqlCommand>
+      </employees>
+    </DataSources>
+    <Relations isList="true" count="3">
+      <PaydataHeader Ref="8" type="DataRelation" isKey="true">
+        <Active>True</Active>
+        <Alias>PaydataHeader</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>paydata_header_id</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Key>8096a2f9586845e6a010dd7676632346</Key>
+        <Name>PaydataHeader</Name>
+        <NameInSource>Relation</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>id</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </PaydataHeader>
+      <Employee Ref="9" type="DataRelation" isKey="true">
+        <Active>True</Active>
+        <Alias>Employee</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>employee_id</value>
+        </ChildColumns>
+        <ChildSource isRef="3" />
+        <Dictionary isRef="1" />
+        <Key>bee551228ec84e9897ffceccfaa3ab22</Key>
+        <Name>Employee</Name>
+        <NameInSource>Relation2</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>id</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </Employee>
+      <Client Ref="10" type="DataRelation" isKey="true">
+        <Active>True</Active>
+        <Alias>Client</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>client_id</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Key>908df24af7ce4739a6fa0ceff0cdc879</Key>
+        <Name>Client</Name>
+        <NameInSource>Relation3</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>id</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </Client>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="2">
+      <value>,ReportName,ReportName,,System.String,Payroll_x0020_Register,False,False,False,False,,e55936ddc8dd471b8696921a53dd7240</value>
+      <value>,CompanyId,CompanyId,,System.Int32,,False,False,False,False,,a08d71cbba2e40eb8771ce70a5683629,True</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>9885e45d2230474cb544726447519e5c</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="11" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <PageHeaderBand1 Ref="12" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.2,13.22,1</ClientRectangle>
+          <Components isList="true" count="40">
+            <Text1 Ref="13" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,3.7,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{ReportName}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text4 Ref="14" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.1,0.4,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Employee Name</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text6 Ref="15" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0.4,1.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Regular</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text8 Ref="16" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0.6,1.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Overtime</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text12 Ref="17" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0.8,1.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Night Diff</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text15 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.2,0,2.3,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>{CompanyId}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="19" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,1,1.2,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>NDiff Overtime</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text3 Ref="20" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.4,1.1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,12,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Client Name</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text17 Ref="21" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0.4,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>RestDay</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text18 Ref="22" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0.6,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>RD Overtime</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="23" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0.8,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>RD Night Diff</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text20 Ref="24" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,1,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>RD NDiff OT</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text31 Ref="25" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.4,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Legal Holiday</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text32 Ref="26" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.6,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>LH Overtime</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text33 Ref="27" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.8,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>LH Night Diff</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text34 Ref="28" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,1,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>LH NDiff OT</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+            <Text35 Ref="29" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0.4,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Special Holiday</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text36 Ref="30" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0.6,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>SH Overtime</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="31" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0.8,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>SH Night Diff</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="32" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,1,1.1,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>SH NDiff OT</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text57 Ref="33" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0.4,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Gross Amount</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text57>
+            <Text63 Ref="34" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text63</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>PhilHealth</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text63>
+            <Text64 Ref="35" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>SSS Prem</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text64>
+            <Text65 Ref="36" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,1,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text65</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>WTax</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text65>
+            <Text66 Ref="37" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0.8,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text66</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Pag-IBIG</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text66>
+            <Text67 Ref="38" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text67</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>SSS Cala</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text67>
+            <Text68 Ref="39" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>SSS Loan</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text68>
+            <Text69 Ref="40" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,1,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>HDMF Cala</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text69>
+            <Text70 Ref="41" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0.8,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text70</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>HDMF Loan</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text70>
+            <Text71 Ref="42" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text71</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Outright</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text71>
+            <Text72 Ref="43" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>C/A Amort</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text72>
+            <Text73 Ref="44" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0.8,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text73</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Paraph</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text73>
+            <Text74 Ref="45" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,1,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text74</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Losses</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text74>
+            <Text75 Ref="46" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text75</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>ATM Fee</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text75>
+            <Text76 Ref="47" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0.8,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text76</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>CashBond</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text76>
+            <Text77 Ref="48" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,1,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text77</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Death Ass</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text77>
+            <Text78 Ref="49" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text78</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Others</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text78>
+            <Text82 Ref="50" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.3,0.4,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text82</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Total Deduction</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text82>
+            <Text86 Ref="51" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,0.4,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text86</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Net Pay</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text86>
+            <Text91 Ref="52" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.7,0.4,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text91</Name>
+              <Page isRef="11" />
+              <Parent isRef="12" />
+              <Text>Acknowledgement</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text91>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+        </PageHeaderBand1>
+        <DataBand1 Ref="53" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,1.6,13.22,0.8</ClientRectangle>
+          <Components isList="true" count="54">
+            <Text2 Ref="54" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,1.1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,12</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <ProcessingDuplicates>Merge</ProcessingDuplicates>
+              <Text>{paydata_details.PaydataHeader.Client.name+
+" "+
+paydata_details.PaydataHeader.Client.client_no}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text5 Ref="55" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.1,0,1.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,12</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.Employee.last_name+
+", "+
+paydata_details.Employee.first_name+
+" "+
+paydata_details.Employee.employee_no}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text7 Ref="56" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.reg_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="57" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text9 Ref="58" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.reg_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="59" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="60" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0.2,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.ot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="61" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="62" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.ot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="63" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text13 Ref="64" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0.4,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.nd_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="65" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="66" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.nd_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="67" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text21 Ref="68" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rd_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="69" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 Ref="70" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.9,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rd_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="71" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="72" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0.2,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rdot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="73" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="74" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.9,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rdot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="75" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text25 Ref="76" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0.4,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rdnd_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="77" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text26 Ref="78" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.9,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rdnd_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="79" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text27 Ref="80" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.3,0.6,0.5,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.ndot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="81" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="82" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>2.8,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.ndot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="83" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text29 Ref="84" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.5,0.6,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rdndot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="85" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text30 Ref="86" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>3.9,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.rdndot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="87" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text39 Ref="88" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lh_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="89" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <Text40 Ref="90" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lh_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="91" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text41 Ref="92" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.2,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lhot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="93" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text42 Ref="94" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lhot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="95" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text43 Ref="96" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.4,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lhnd_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="97" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text44 Ref="98" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lhnd_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="99" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="100" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>4.6,0.6,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lhndot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="101" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+            <Text46 Ref="102" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.lhndot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="103" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+            <Text47 Ref="104" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.sh_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="105" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text47>
+            <Text48 Ref="106" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.1,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.sh_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="107" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text48>
+            <Text49 Ref="108" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0.2,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.shot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="109" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text49>
+            <Text50 Ref="110" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.1,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.shot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="111" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text51 Ref="112" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0.4,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.shnd_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="113" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+            <Text52 Ref="114" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.1,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.shnd_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="115" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text52>
+            <Text53 Ref="116" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>5.7,0.6,0.4,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.shndot_hours}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="117" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text54 Ref="118" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.1,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.shndot_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="119" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text54>
+            <Text61 Ref="120" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>6.8,0,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text61</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.gross_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="121" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text61>
+            <Text87 Ref="122" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text87</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.sss_employee}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="123" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text87>
+            <Text88 Ref="124" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text88</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.ph_employee}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="125" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text88>
+            <Text89 Ref="126" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text89</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.hdmf_employee}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="127" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text89>
+            <Text90 Ref="128" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>7.5,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text90</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.tax_wheld}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="129" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text90>
+            <Text92 Ref="130" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text92</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn01}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="131" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text92>
+            <Text93 Ref="132" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text93</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn02}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="133" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text93>
+            <Text94 Ref="134" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text94</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn03}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="135" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text94>
+            <Text95 Ref="136" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.2,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text95</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn04}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="137" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text95>
+            <Text96 Ref="138" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text96</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn05}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="139" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text96>
+            <Text97 Ref="140" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text97</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn06}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="141" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text97>
+            <Text98 Ref="142" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text98</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn07}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="143" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text98>
+            <Text99 Ref="144" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>8.9,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text99</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn08}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="145" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text99>
+            <Text100 Ref="146" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text100</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn09}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="147" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text100>
+            <Text101 Ref="148" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0.2,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text101</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.dedn10}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="149" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text101>
+            <Text102 Ref="150" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0.4,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text102</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.cashbond}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="151" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text102>
+            <Text103 Ref="152" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>9.6,0.6,0.7,0.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text103</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.death_assist}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="153" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text103>
+            <Text104 Ref="154" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.3,0,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text104</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.deduction_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="155" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text104>
+            <Text105 Ref="156" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11,0,0.7,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text105</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>{paydata_details.netpay_amount}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="157" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text105>
+            <Text106 Ref="158" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>11.7,0,1.3,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text106</Name>
+              <Page isRef="11" />
+              <Parent isRef="53" />
+              <Text>---------------------------
+{paydata_details.Employee.last_name+
+", "+
+paydata_details.Employee.first_name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextFormat Ref="159" type="NumberFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <GroupSeparator>,</GroupSeparator>
+                <NegativePattern>1</NegativePattern>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Bottom</VertAlignment>
+            </Text106>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>paydata_details</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="11" />
+          <Parent isRef="11" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>2961d5ea36004132a7e337cd084dcfc3</Guid>
+      <Margins>0.39,0.39,0.39,0.39</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>8.5</PageHeight>
+      <PageWidth>14</PageWidth>
+      <PaperSize>Legal</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>8/31/2021 8:22:55 PM</ReportChanged>
+  <ReportCreated>8/9/2021 8:18:55 AM</ReportCreated>
+  <ReportFile>C:\stimulsoft-nextjs\public\reports\PayrollRegister.mrt</ReportFile>
+  <ReportGuid>a223df4d370249149a606011f7b380d6</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2021.3.6.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
